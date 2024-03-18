@@ -3,9 +3,8 @@ import "./MainSearch.css"
 const MainSearch = () => {
     return (
       <div className="app-body-search">
-        <h4> Search </h4>
-        <input type="text" id="input_search" />
-        <button type="submit" caption="Search">Search</button>
+        <input type="text" className="search-input" id="searchInput"/>
+        <button type="submit" className="search-button">Search</button>
       </div>
     );
   };

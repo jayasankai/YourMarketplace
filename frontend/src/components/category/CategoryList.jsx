@@ -1,18 +1,15 @@
 import "./CategoryList.css"
+import CategotyItem from "./CategoryItem";
 
-const CategorySection = (props) => {
+const CategoryList = (props) => {
     return (
       <div className="app-body">
         <p>Browse items by category</p>
         <ul>
           {
             props.categoryList.map((cat, index) => 
-              <li>
-                <p>{cat.name}</p>
-                <img
-                  src={cat.image}
-                  alt={cat.description}
-                />
+              <li key={index}>
+                <CategotyItem {...cat}/>
               </li>
             )
           }
@@ -21,4 +18,4 @@ const CategorySection = (props) => {
     );
   };
 
-  export default CategorySection;
+  export default CategoryList;

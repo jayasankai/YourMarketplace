@@ -7,21 +7,25 @@ export const SEARCH_CATEGORIES = [
     {
         name: "Electronics",
         description: "Electronics Description",
-        image: electronics
+        image: electronics,
+        noOfAds: 1220
     },
     {
         name: "Property",
         description: "Property Description",
-        image: property
+        image: property,
+        noOfAds: 230
     },
     {
         name: "Vehicles",
         description: "Vehicles Description",
-        image: vehicles
+        image: vehicles,
+        noOfAds: 500
     },
     {
         name: "Fashion and Cloths",
         description: "Fashion and Cloths Description",
-        image: fashionCloths
+        image: fashionCloths,
+        noOfAds: 1220
     }
 ]

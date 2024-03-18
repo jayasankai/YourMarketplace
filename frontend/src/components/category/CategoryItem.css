@@ -1,0 +1,11 @@
+.category-item {
+    overflow: hidden;
+}
+
+.category-item img{
+    float:left;
+}
+
+.category-item div{
+    float:right;
+}
